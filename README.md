@@ -12,3 +12,5 @@ Que é um plugin para extrair o CSS incluindo no ponto de entrada em um arquivo 
 . Repare que para esse plugin isso ocorre em duas etapas, primeiro incluímos a instância da classe MiniCssExtractPlugin no array “plugins”, e então substituímos o “style-loader” pelo loader do plugin (porque agora não iremos carregar estilos com o javascript e sim incluir estilos em um css separado)
 
 . Por fim, só precisamos ajustar o arquivo index.html para incluir o novo arquivo css que geramos
+
+# Visite https://webpack.js.org/plugins/ para mais informações .
